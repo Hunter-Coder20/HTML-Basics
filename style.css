@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(206, 156, 250);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    min-height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.special-heading {
+    background: gray;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0m5);
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.arial {
+    font-family: 'Arial', sans-serif;
+}
+
+.roman {
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.text-orange {
+    color: orangered;
+}
+
+.bg-orange {
+    background: orangered;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+}
+
+.text-purple {
+    color: purple;
+}
+
+.bg-purple {
+    background: purple;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    background: purple;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem 3rem;
+}
+
+button:hover {
+    background: rgb(208, 44, 208);
+}
+
+button:active {
+    background: rgb(239, 103, 239);
+    color: black;
+}
